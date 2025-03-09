@@ -23,7 +23,8 @@ Instructions are detailed below.
             The complete dataset consists of 107,207,569 observations, resulting in 72 chunks.
             You can adjust the chunk size to better fit your system’s memory constraints.
         Memory Note:
-            Please clear this notebook's variables from memory after running it to avoid memory errors in subsequent notebooks.
+            Please clear this notebook's variables from memory after running it to avoid memory errors in 
+            subsequent notebooks.
             
 ### Exploration (Optional)
 
