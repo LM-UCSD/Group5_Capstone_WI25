@@ -1,4 +1,5 @@
 # Group5_Capstone_WI25
+## Contributors: Lauren Marrs, Chris Scholz, and Chase Farrell
 
 Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in order to build a model to predict flag counts for a given grid cell and time. The purpose of this excerise is to build a model that could give an end-user a prediction of which countries and how many vessels from that country will operate in a grid cell. Predictions of this nature could give governments and international organizations valuable insights on where clusters of fishing vessels may appear and aid in the enforcement and management of fisheries and Exclusive Economic Zones.
 
