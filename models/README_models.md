@@ -4,4 +4,4 @@ Folder contains model results in pickle format.
  
 	rf_model.pkl is the pickle file containing Random Forest Model Results
  
-	gb_model,pkl is the pickle file containing Gradient Boost Model Results
+	xgb_model,pkl is the pickle file containing XG Boost (Extreme Gradient Boosting) Model Results
