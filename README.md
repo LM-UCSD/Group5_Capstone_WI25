@@ -1,11 +1,13 @@
 # Group5_Capstone_WI25
 
+Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in order to build a model to predict flag counts for a given grid cell and time. The purpose of this excerise is to build a model that could give an end-user a prediction of which countries and how many vessels from that country will operate in a grid cell. Predictions of this nature could give governments and international organizations valuable insights on where clusters of fishing vessels may appear and aid in the enforcement and management of fisheries and Exclusive Economic Zones.
+
 Instructions to Reproduce Our Model Results
 
 Disclaimer:
 Our model was run on local machines with at least 32 GB of RAM. Although we took steps to minimize memory usage, the notebooks will likely not run on systems with less than 32 GB of RAM. Additionally, our models take a long time to run due to the large dataset. If needed, parameters are provided that can be modified to reduce the computational load and approximate our results. Instructions are detailed below.
 
-1. Preprocessing
+Preprocessing
 
     Navigate to the notebooks folder.
     Download and run 1. Preprocessing.ipynb:
@@ -19,16 +21,16 @@ Our model was run on local machines with at least 32 GB of RAM. Although we took
             You can adjust the chunk size to better fit your system’s memory constraints.
         Memory Note:
             Please clear this notebook's variables from memory after running it to avoid memory errors in subsequent notebooks.
-   
-2. Exploration (Optional)
+            
+Exploration (Optional)
 
     Download and run 2. Exploration.ipynb:
         This notebook contains steps for data exploration and generates visuals and summaries for our final report.
         If you wish to verify our visuals and summaries, you may run this notebook.
-        Memory Note:
-            Clear this notebook's variables from memory after running it to prevent memory errors in the modeling notebook.
+    Memory Note:
+        Clear this notebook's variables from memory after running it to prevent memory errors in the modeling notebook.
    
-3. Modeling
+Modeling
 
     Download and run 3. Modeling.ipynb:
         Sampling Parameter:
@@ -40,5 +42,5 @@ Our model was run on local machines with at least 32 GB of RAM. Although we took
         Model Output:
             The final code block downloads pickle files containing our model results.
             These pickle files are also available in the models folder of this GitHub repository for comparison.
-        Memory Note:
-            If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
+    Memory Note:
+        If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
