@@ -53,20 +53,3 @@ Instructions are detailed below.
         If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
         Clear this notebook's variables for memory after runnin it ot prevent memory errors in the next modeling ntoebook.
 
-    Download and run 4. Modeling Flag Predictions.ipynb:
-        Sampling Parameter:
-            The sample_n value in the third code block samples 15% of the data. Modify this value to influence processing time
-            if needed.
-        Processing Time:
-            Due to the large dataset, this notebook takes a significant amount of time to run on our local machines. 
-            Please be patient or adjust sample_n accordingly.
-        Reproducibility:
-            We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the
-            outcomes in this notebook with those reported in our final report.
-        Model Output:
-            The final code block downloads pickle files containing our model results.
-            These pickle files are also available in the models folder of this GitHub repository for comparison. 
-            (Note the Random Forest Model Pickle file is in a .zip format since it was too large even for LFS to transfer)
-    Memory Note:
-        If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
-
