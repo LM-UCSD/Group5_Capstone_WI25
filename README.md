@@ -1,7 +1,7 @@
-# Group5_Capstone_WI25
+# Group5 Capstone WI25
 Contributors: Lauren Marrs, Chris Scholz, and Chase Farrell
 
-Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in order to build a model to predict flag counts for a given grid cell and time. The purpose of this excerise is to build a model that could give an end-user a prediction of which countries and how many vessels from that country will operate in a grid cell. Predictions of this nature could give governments and international organizations valuable insights on where clusters of fishing vessels may appear and aid in the enforcement and management of fisheries and Exclusive Economic Zones.
+Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in order to build a model to predict flag counts for a given grid cell and time. The purpose of this excerise is to build a model that could give an end-user a prediction of which countries and how many vessels from that country will operate in a grid cell and build a model that would predict the flagging of vessels. Predictions of location could give governments and international organizations valuable insights on where clusters of fishing vessels may appear and aid in the enforcement and management of fisheries and Exclusive Economic Zones. While predicitions of flags could give governments and international organizations the ability to determine the likley flag of a vessel obscuring their registration or otherwise not projecting their Automatic identification signal (AIS).
 
 ## Instructions to Reproduce Our Model Results
 
@@ -36,13 +36,13 @@ Instructions are detailed below.
    
 ### Modeling
 
-    Download and run 3. Modeling.ipynb:
+    Download and run 3. Modeling Location Predicitions.ipynb:
         Sampling Parameter:
             The sample_n value in the third code block samples 5% of the data. Modify this value to influence processing time
             if needed.
         Processing Time:
-            Due to the large dataset, this notebook took 3 or more hours to run on our local machines. Please be patient or adjust
-            sample_n accordingly.
+            Due to the large dataset, this notebook takes a significant amount of time to run on our local machines. 
+            Please be patient or adjust sample_n accordingly.
         Reproducibility:
             We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the
             outcomes in this notebook with those reported in our final report.
@@ -51,3 +51,22 @@ Instructions are detailed below.
             These pickle files are also available in the models folder of this GitHub repository for comparison.
     Memory Note:
         If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
+        Clear this notebook's variables for memory after runnin it ot prevent memory errors in the next modeling ntoebook.
+
+    Download and run 4. Modeling Flag Predictions.ipynb:
+        Sampling Parameter:
+            The sample_n value in the third code block samples 15% of the data. Modify this value to influence processing time
+            if needed.
+        Processing Time:
+            Due to the large dataset, this notebook takes a significant amount of time to run on our local machines. 
+            Please be patient or adjust sample_n accordingly.
+        Reproducibility:
+            We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the
+            outcomes in this notebook with those reported in our final report.
+        Model Output:
+            The final code block downloads pickle files containing our model results.
+            These pickle files are also available in the models folder of this GitHub repository for comparison. 
+            (Note the Random Forest Model Pickle file is in a .zip format since it was too large even for LFS to transfer)
+    Memory Note:
+        If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
+
