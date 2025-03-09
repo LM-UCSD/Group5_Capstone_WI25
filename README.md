@@ -44,8 +44,8 @@ Instructions are detailed below.
             Due to the large dataset, this notebook takes about 3 hours to run on our local machines. Please be patient or adjust
             sample_n accordingly.
         Reproducibility:
-            We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the outcomes
-            in this notebook with those reported in our final report.
+            We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the
+            outcomes in this notebook with those reported in our final report.
         Model Output:
             The final code block downloads pickle files containing our model results.
             These pickle files are also available in the models folder of this GitHub repository for comparison.
