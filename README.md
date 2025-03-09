@@ -6,7 +6,7 @@ Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in o
 ## Instructions to Reproduce Our Model Results
 
 #### Disclaimer
-Our model was run on local machines with at least 32 GB of RAM. Although we took steps to minimize memory usage, the notebooks will likely not run on systems with less than 32 GB of RAM. Additionally, our models take a long time to run due to the large dataset. If needed, parameters are provided that can be modified to reduce the computational load and approximate our results. There is no guarantee that systems with smaller memory sizes can run these notebooks. Additional time to test different machine configurations besides on the perosnal machines of our contributors were not feasible and were not accounted for.
+Our model was run on local machines with at least 32 GB of RAM. Although we took steps to minimize memory usage, the notebooks will likely not run on systems with less than 32 GB of RAM. Additionally, our models take a long time to run due to the large dataset. If needed, parameters are provided that can be modified to reduce the computational load and approximate our results. There is no guarantee that systems with smaller memory sizes can run these notebooks. Additional time to test different machine configurations besides on the personal machines of our contributors were not feasible and were not accounted for.
 
 Instructions are detailed below.
 
