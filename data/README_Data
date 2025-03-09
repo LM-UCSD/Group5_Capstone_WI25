@@ -1,0 +1,5 @@
+Folder contains read me files provided by Global Fishing Watch for the individual files here
+
+Group 5 Files.zip contains the raw original processed data from the Global Fishing Watch website for ease of access. This is used in our notebooks to generate our data.
+
+Our processed data is not contained in this folder as it is over capacity and our notebooks generate our processed data.
