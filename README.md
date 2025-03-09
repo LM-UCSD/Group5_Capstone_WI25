@@ -41,7 +41,7 @@ Instructions are detailed below.
             The sample_n value in the third code block samples 5% of the data. Modify this value to influence processing time
             if needed.
         Processing Time:
-            Due to the large dataset, this notebook takes about 3 hours to run on our local machines. Please be patient or adjust
+            Due to the large dataset, this notebook took 3 or more hours to run on our local machines. Please be patient or adjust
             sample_n accordingly.
         Reproducibility:
             We use a random state of 20, so the results should be exactly reproducible. You can verify this by comparing the
