@@ -6,7 +6,7 @@ Group 5's Capstone uses Global Fishing Watch's "Public Fishing Effort" data in o
 ## Instructions to Reproduce Our Model Results
 
 #### Disclaimer
-Our model was run on local machines with at least 32 GB of RAM. Although we took steps to minimize memory usage, the notebooks will likely not run on systems with less than 32 GB of RAM. Additionally, our models take a long time to run due to the large dataset. If needed, parameters are provided that can be modified to reduce the computational load and approximate our results. There is no guarantee that systems with smaller memory sizes can run these notebooks. Additional time to test different machine configurations besides on the personal machines of our contributors were not feasible and were not accounted for.
+Our model was run on local machines with at least 32 GB of RAM. Although we took steps to minimize memory usage, the notebooks will likely not run on systems with less than 32 GB of RAM. Additionally, our models take a long time to run due to the large dataset. If needed, parameters are provided that can be modified to reduce the computational load and approximate our results. There is no guarantee that systems with smaller memory sizes can run these notebooks. Additional time to test different machine configurations besides on the personal machines of our contributors were not feasible and were not accounted for. If there is a desire to check our models without running our model building step notebook, please skip to the "Pre-Training Model" section for instructions, this notebook uses the pre-trained pickle files present on this repo for reproduction purposes.
 
 Instructions are detailed below.
 
@@ -53,3 +53,12 @@ Instructions are detailed below.
         If you encounter memory errors, ensure that no unnecessary data is committed to memory on your system.
         Clear this notebook's variables for memory after runnin it ot prevent memory errors in the next modeling ntoebook.
 
+## Pre-Trained Model 
+
+    Download and run 4. Pre-Trained Model Notebook.ipynb:
+        This note book contains steps for using our pre-trained model (pickle file format). This notebook can be
+        used to run verify the results of our model if desired and the processing time of our model notebooks
+        are untenable.
+    Note:
+        This notebook uses files present in our github repo and should require no intervention to run.
+    
