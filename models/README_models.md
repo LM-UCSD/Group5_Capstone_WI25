@@ -1,4 +1,4 @@
-Folder's purpose to contain model output, the model output is contained within a zip file called Model_Pickle_Files.zip for ease of storage. The contents of this file are listed below:
+Folder's purpose to contain model output, the contents of the folder is listed below:
 
 	Location_Predictions_lr_model.pkl is the pickle file containing Linear Regression Model Results 
  	for the location model.
