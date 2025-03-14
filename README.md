@@ -60,5 +60,12 @@ Instructions are detailed below.
         used to run verify the results of our model if desired and the processing time of our model notebooks
         are untenable.
     Note:
-        This notebook uses files present in our github repo and should require no intervention to run.
+        This notebook uses files present in our github repo and should require no intervention to run if you
+        are using Sklearn 1.3.2.
+        
+        If you are running Sklearn 1.4.2, there are ()_model2.pkl files present in our models folder on this repo
+        In the notebook there are commented out url paths to these ()_model2.pkl files. Please comment the url_()
+        variables using ()_model.pkl paths out and uncomment the ()model2.pkl paths in. There this a note
+        comment in the notebook itself also explaining this. Our notebook does not support other verisons of
+        Sklearn, these were just the common verisons our group were running.
     
